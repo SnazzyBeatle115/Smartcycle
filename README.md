@@ -1,1 +1,1 @@
-# HackTCNJ
+# Smartcycle

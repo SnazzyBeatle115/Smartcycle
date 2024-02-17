@@ -6,7 +6,11 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Smartcycle.settings')
+    os.environ['DJANGO_SETTINGS_MODULE'] = 'Smartcycle.settings'
+    print(os.environ.get('DJANGO_SETTINGS_MODULE'))
+
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

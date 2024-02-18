@@ -1,13 +1,13 @@
 import numpy as np
-import pandas as pd
+# import pandas as pd
 import matplotlib.pyplot as plt
 import re
 import os
 import random
 from PIL import Image
 import tensorflow as tf
-from tensorflow.keras.preprocessing.image import ImageDataGenerator,load_img, img_to_array
-from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDisplay
+# from tensorflow.keras.preprocessing.image import ImageDataGenerator,load_img, img_to_array
+# # from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDisplay
 import modelHandler
 import pickle
 import time
@@ -63,5 +63,6 @@ def monitor_directory(directory):
     observer.join()
 
 if __name__ == "__main__":
-    directory_to_watch = "/home/alex/Documents/ml/ml/test"  # Specify the directory you want to monitor
+    directory_to_watch = os.join(os.getcwd(), "media")
+    # directory_to_watch = "C:\Users\david\OneDrive\Documents\GitHub\HackTCNJ\media"  # Specify the directory you want to monitor
     monitor_directory(directory_to_watch)

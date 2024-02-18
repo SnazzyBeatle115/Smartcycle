@@ -83,3 +83,13 @@ def logout(request):
             quote_via=quote_plus,
         ),
     )
+
+# pages
+def home(request):
+    return render(request, "home.html")
+
+def plastic(request):
+    return render(request, "plastic.html")
+
+def account(request):
+    return render(request, "account.html")

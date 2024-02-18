@@ -20,6 +20,11 @@ from .App import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("img-test/", views.img_test),
-    path("img-handling-test/", views.img_handling_test)
+    # path("img-test/", views.img_test),
+    path("img-handling-test/", views.img_handling_test),
+    path("", views.index, name="index"),
+
+    path("login", views.login, name="login"),
+    path("logout", views.logout, name="logout"),
+    path("callback", views.callback, name="callback"),
 ]

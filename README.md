@@ -1,4 +1,4 @@
-![SmartRecycle Logo](logo_smartrecycle.png)
+![SmartRecycle Logo](/Smartcycle/App/static/home/logo_smartrecycle.png)
 
 # **Smartcycle: Unlocking a Greener Future! 🌿**
 

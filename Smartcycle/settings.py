@@ -70,6 +70,11 @@ TEMPLATES = [
     },
 ]
 
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'Smartcycle\\App\\static')
+]
+
+
 WSGI_APPLICATION = 'Smartcycle.wsgi.application'
 
 

@@ -1,0 +1,98 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='utf-8'>
+        <link href="{% static 'home/style.css' %}" rel="stylesheet"/>
+        <title>SmartCycle</title>
+    </head>
+
+    <body>
+      <div class='navbar'>
+          <img id ='logo' src="{% static 'home/logo.png' %}" alt='Smart Recycle Logo'/>
+          <a id='signin'>Sign In</a>
+      </div>
+      
+        <!-- Background Image -->
+        <img id="banner_img" src="{% static 'home/recycle.jpg' %}" alt ='recyling sign'/>
+      
+        <h1 class="subtitle"> Clean the environment with recycling</h1>
+
+        <main class="main">
+          <button class='button' type='button'>
+            <div> Upload Image </div>
+          </button>
+          
+          <div class="categories">
+            <h2> Categories:</h2>
+          </div>
+        </main>
+
+      <h2 id='case_heading'>Recycling Case Studies</h2>
+
+      <!--Articles-->
+      <div class='content'>
+        
+            <div class='article'>
+              <h3>Upcycled Planters:</h3>
+              <p>Transform old containers, tin cans, or plastic bottles into unique planters for your indoor or outdoor garden. Paint and decorate them for a personalized touch.</p>
+            </div>
+    
+            <div class='article'>
+              <h3>Repurposed Magazine Art:</h3>
+              <p>Create colorful and abstract art by cutting and weaving strips of old magazines or newspapers. Frame the finished pieces to add a burst of creativity to your walls.</p>
+            </div>
+    
+            <div class='article'>
+              <h3>Tire Swing:</h3>
+              <p>Turn old tires into a classic backyard swing for kids. Paint them in vibrant colors or leave them natural for a rustic look. Hang the tire swing from a sturdy tree branch using strong rope.</p>
+            </div>
+
+            <div class='article'>
+              <h3>Bottle Cap Mosaic:</h3>
+              <p>Collect and sort bottle caps by color to create mosaic designs. Glue them onto a wooden board or any suitable surface to make unique and eye-catching wall art.</p>
+            </div>
+
+            <div class='article'>
+              <h3>Plastic Bag Crochet:</h3>
+              <p>Repurpose plastic bags into yarn by cutting them into strips. Use the "plarn" to crochet reusable tote bags, doormats, or even hats.</p>
+            </div>
+
+        <div class='article'>
+          <h3>Wine Cork Bulletin Board:</h3>
+          <p>Save wine corks and glue them onto a board to create a stylish and functional bulletin board. It's a great way to display notes, photos, and reminders while adding a touch of character to your space.</p>
+        </div>
+        
+      </div>
+
+      <img id='line' src="{% static 'home/leave2.png' %}" alt='Line break with leaves'/>
+        <img id='quote_img' src="{% static 'home/quote.png' %}" alt='Recycling Quote'/>
+
+        <footer>
+          <div class='col1'>
+            <div class="logo2-container">
+              <img id='logo2' src ="{% static 'home/logo.png' %}" alt='Smart Cycle Logo'/>
+            </div>
+            
+            <div class='form'>
+              <h3>Stay up-to-date with our monthly newsletter</h3>
+              <form action='#' method ='post2' class = 'newsletter'>
+              <label for ='email'>Email</label>
+              <input type ='email' id ='email' name = 'email' placeholder='Your Email Address' required>
+            </div>
+          </div>
+          
+          <div class='credit'>
+            <h2>Created by</h2>
+            <p>Sewon Kim</p>
+            <p>Alex Jia</p>
+            <p>David Shen</p>
+            <p>Kathy Tran</p>
+          </div>
+        </footer>
+
+        <script src="script.js" type="text/javascript
+          "></script>
+    </body>
+</html>

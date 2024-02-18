@@ -20,6 +20,6 @@ from .App import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("welcome/", views.handler),
-    path("upload/", views.upload_image)
+    path("img-test/", views.img_test),
+    path("img-handling-test/", views.img_handling_test)
 ]

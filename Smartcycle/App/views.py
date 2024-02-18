@@ -7,14 +7,13 @@ from django.views.decorators.csrf import csrf_exempt
 
 # Create your views here.
 
-# TEST: create the img upload form page
-def handler(request):
-    html_file = open("./Smartcycle/App/test.html", "r")
-    return HttpResponse(html_file.read())
+# test: render page that has a form to submit imgs
+def img_test(request):
+    return render(request, 'img-test.html')
 
 # handle the form submission of img
 @csrf_exempt
-def upload_image(request):
+def img_handling_test(request):
     if request.method == 'POST':
         image = request.FILES['img']
         image_name = default_storage.save(image.name, image)

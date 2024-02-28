@@ -49,7 +49,7 @@ def index(request):
 
     return render(
         request,
-        "index.html",
+        "home.html",
         context={
             "session": request.session.get("user"),
             "pretty": json.dumps(request.session.get("user"), indent=4),
@@ -85,8 +85,8 @@ def logout(request):
     )
 
 # pages
-def home(request):
-    return render(request, "home.html")
+# def home(request):
+#     return render(request, "home.html")
 
 def plastic(request):
     return render(request, "plastic.html")

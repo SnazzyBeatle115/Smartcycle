@@ -1,4 +1,4 @@
-![SmartRecycle Logo](/Smartcycle/App/static/home/logo_smartrecycle.png)
+* Garbage Classification Model: <https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification>
 
 # **Smartcycle: Unlocking a Greener Future! 🌿**
 
@@ -43,23 +43,6 @@ We also edited our code in TinyMCE and ran our model using Google's Cloud Comput
 
 In summary, Smartcycle is a harmonious blend of HTML, Python, machine learning, Django, and Auth0—all orchestrated through GitHub. Together, they empower users to recycle smarter and make a tangible impact on our planet.
 
-## Challenges we ran into
-
-Developing Smartcycle presented us with a series of challenges. First, training the image recognition model was resource-intensive due to hardware limitations. We optimized our model parameters to work within these constraints. Next, integrating the model with the backend was crucial. Ensuring seamless data flow from user-uploaded photos to processing pipelines required careful alignment. Finally, setting up and deploying the server posed its own hurdles. Debugging errors and ensuring stability were top priorities. Wanting to ensure user security as well, we had to integrate with auth0. On top of that, we had some issues with our version control on GitHub. Despite these challenges, we were able to perservere.
-
-
-## Accomplishments that we're proud of
-
-1. Build an aesthetic website with a harmonious combination of colors
-2. Successfully train the model to classify different kinds of trash from user's input images with an accuracy of 80% within 5 hours
-3. Created file transfer of image binary data over the web from client to server
-
-## What we learned
-
-1. Learn and apply django framework built on python for back end web development
-2. Learn and apply animation in css
-3. Learn and apply Python supervised machine learning for object classification
-
 ## What's next for SmartCycle
 
 Several features that could be improved:
@@ -76,5 +59,3 @@ If successfully pitched, we would like to develop more on the following aspects:
   * **Sewon Kim** - [Github](https://github.com/SewonKim0)
   * **Kathy Tran** - [Github](https://github.com/kathytran88)
   * **Alex Jia** - [Github](https://github.com/yaojiejia)
-
-* Garbage Classification Model: <https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification>

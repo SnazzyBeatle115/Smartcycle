@@ -1,4 +1,3 @@
-* Garbage Classification Model: <https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification>
 
 # **Smartcycle: Unlocking a Greener Future! 🌿**
 
@@ -59,3 +58,6 @@ If successfully pitched, we would like to develop more on the following aspects:
   * **Sewon Kim** - [Github](https://github.com/SewonKim0)
   * **Kathy Tran** - [Github](https://github.com/kathytran88)
   * **Alex Jia** - [Github](https://github.com/yaojiejia)
+ 
+  * Garbage Classification Model: <https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification>
+
